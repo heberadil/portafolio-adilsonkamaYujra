@@ -1,0 +1,61 @@
+
+main img{
+    width: 100%;
+}
+.portada{
+    background-image: url('../images/Frontend-y-backend.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+    opacity: 0.9;
+}
+.portada .foto{
+    padding-top: 100px;
+}
+.portada .foto .fotoPersonal{
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.portada .titulo, .parrafo{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 15px;
+    line-height: 30px;
+    background: #e5f1fa;
+    color: #615f5f;  
+}
+.portada .titulo{
+    margin-top: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.portada .parrafo{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#Portafolio img{
+    background-attachment: fixed;
+}
+#Habilidades h5{
+    margin-top: 40px;
+}
+#Contacto .container{   
+    width: 800px;
+}
+#footer{
+    background:#19303c;
+}
+#footer h6, a{
+    color: white;
+}
+#footer h6 a{
+    text-decoration: none;
+}
+#footer a img{
+    width: 25px;
+    margin-left: 20px;
+}
